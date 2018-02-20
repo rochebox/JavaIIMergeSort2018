@@ -10,25 +10,18 @@ public class mergeSortClass
 ;
   public static void main(String[] args)
   {
-    // TODO Auto-generated method stub
-    //int howMany = 10;
-   // list = new int[howMany];
-   /* for(int i = 0; i < list.length; i++ )
-    {
-      //this gives you numbers from 1 to 1000
-       list[i]= (int)(Math.random() * 1000) +1;
-    }*/
+    
     
     System.out.println(Arrays.toString(list));
     
     mergeIt(4,8, 9, 11);
     
     System.out.println(Arrays.toString(list));
-
-    //int start = 0;
-    //int end = list.length -1;
     
-    //mergeSort(start, end);
+    //Write commands here (using merge and print) to create a fully sorted list2
+    //Print out the list as it sorts in stages...
+
+
   }
   
   //This is the worker method that merges two sorted lists....
